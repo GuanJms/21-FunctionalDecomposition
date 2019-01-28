@@ -1,7 +1,7 @@
 """
 Hangman.
 
-Authors: Shengjun Guan and YOUR_PARTNERS_NAME_HERE.
+Authors: Shengjun Guan and Greg Wenning.
 """  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
@@ -14,8 +14,6 @@ def main():
         word = pick_up_word('words.txt', word_limit)
 
         secret_word = word
-
-        print(word)
 
         unsuccessful_choice_present = unsuccessful_choice
 
